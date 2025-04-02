@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: background-color .3s ease-in-out;
+}
+
+body.light {
+  color: #000;
+  background-color: #fff;
+}
+
+body.dark {
+  color: #fff;
+  background-color: #000;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.box {
+  text-align: center;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 6px #0003;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:first-child {
+  color: #000;
+  background-color: #f0f0f0;
+}
+
+button:last-child {
+  color: #fff;
+  background-color: #000;
+}
+/*# sourceMappingURL=RevisieContext.1303bb05.css.map */

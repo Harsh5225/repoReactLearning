@@ -1,0 +1,24 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.box.light {
+  color: #000;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.box.dark {
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px #0003;
+}
+/*# sourceMappingURL=RevisieContext.aa436662.css.map */
