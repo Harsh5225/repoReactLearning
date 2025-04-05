@@ -34,8 +34,8 @@ class App extends React.Component {
       <h1>Data is Loading</h1>
     ) : (
       <div>
-        {/* <Child />
-          <Child /> */}
+        <Child />
+         
         <h1>Profile class based component</h1>
         {/* // <h3>Name:{this.state.userDeatails.id}</h3> */
         /* <h3>Address:{this.state.userDeatails.address}</h3>

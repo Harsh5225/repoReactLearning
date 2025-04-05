@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 class Child extends React.Component {
   constructor() {
@@ -14,6 +14,14 @@ class Child extends React.Component {
   };
   componentDidMount() {
     console.log("child componentDidMount is called");
+    this.timer = setInterval(() => {
+      console.log("time is called");
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    console.log("child componentWillUnmount is called");
+    clearInterval(this.timer);
   }
   render() {
     console.log("child render is called");

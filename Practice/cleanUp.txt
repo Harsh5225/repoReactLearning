@@ -1,0 +1,25 @@
+
+# Clean Up in class based component
+ componentDidMount() {
+    console.log("child componentDidMount is called");
+    this.timer = setInterval(() => {
+      console.log("time is called");
+    }, 1000);
+  }
+
+componentWillUnmount() {
+    console.log("child componentWillUnmount is called");
+    clearInterval(this.timer);
+  }
+
+  #Clean Up in class based component
+
+  useEffect(()=>{
+  const timer = setInterval(() => {
+      console.log("time is called");
+    }, 1000);
+
+    return  ()=>{
+      clearInterval(timer)
+    }
+  },[])
